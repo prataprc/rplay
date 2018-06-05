@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-rustc $1
+rustc -Z external-macro-backtrace $1
 script=`basename $1`
 prog="${script%.*}"
 shift
