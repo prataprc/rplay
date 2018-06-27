@@ -1,12 +1,14 @@
 extern crate getopts;
 
 use getopts::Fail;
+use std::io::Error as IOError;
 use std::error::{self, Error as ErrorTrait};
 use std::fmt::{self,Display,Debug};
 
 pub enum Error {
     GetoptsFail(Fail),
     InvalidMode(String),
+    IO(IOError),
 }
 
 impl From<Fail> for Error {
@@ -15,11 +17,18 @@ impl From<Fail> for Error {
     }
 }
 
+impl From<IOError> for Error {
+    fn from(err: IOError) -> Error {
+        Error::IO(err)
+    }
+}
+
 impl error::Error for Error {
     fn description(&self) -> &str {
         match self {
-            Error::GetoptsFail(_) => "getopts parse failed",
-            Error::InvalidMode(_) => "invalid mode argument"
+            Error::GetoptsFail(fail) => fail.description(),
+            Error::InvalidMode(_) => "invalid mode argument",
+            Error::IO(err) => err.description(),
         }
     }
 
@@ -27,6 +36,7 @@ impl error::Error for Error {
         match self {
             Error::GetoptsFail(fail) => Some(fail),
             Error::InvalidMode(_) => None,
+            Error::IO(err) => Some(err),
         }
     }
 }
@@ -36,6 +46,7 @@ impl Display for Error {
         let cause = match self {
             Error::GetoptsFail(fail) => format!("{:?}", fail),
             Error::InvalidMode(mode) => format!("'{}'", mode),
+            Error::IO(err) => format!("'{}'", err.description()),
         };
         write!(f, "{}, {}", self.description(), cause)
     }

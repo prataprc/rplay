@@ -4,8 +4,10 @@ mod error;
 mod args;
 
 use std::env;
+use std::fs;
+use std::path::Path;
 use error::Error;
-use args::{parse_args};
+use args::{parse_args, CmdOptions};
 
 
 //fn parsemode(mode: &String) -> Result(u32, &str) {
@@ -60,6 +62,49 @@ use args::{parse_args};
 fn main() -> Result<(), Error> {
     let args: Vec<String> = env::args().collect();
     let opts = parse_args(&args[0], &args[1..]);
-    println!("{:?}", opts);
+
+    for path in &opts.paths {
+        if let Ok(md) = fs::metadata(path) {
+            if opts.verbose && md.is_dir() {
+                println!("{}: Directory exists {:?}", opts.progname, path);
+                continue
+            }
+        }
+
+        if opts.recurse {
+            create_recurse(&opts, path.as_ref())?;
+        } else {
+            create_dir(&opts, path.as_ref())?;
+        }
+    }
+    Ok(())
+}
+
+fn create_recurse(opts: &CmdOptions, path: &Path) -> Result<(), Error> {
+    use std::path::Component::{RootDir, CurDir, ParentDir, Prefix, Normal};
+    use std::path::PathBuf;
+
+    let mut d = PathBuf::new();
+    for comp in path.components() {
+        match comp {
+            RootDir | CurDir | ParentDir => d.push(comp),
+            Normal(name) => { d.push(name); create_dir(opts, d.as_ref())?; },
+            Prefix(_) => panic!("not supported"),
+        }
+    }
+    Ok(())
+}
+
+fn create_dir(opts: &CmdOptions, path: &Path) -> Result<(), Error> {
+    if let Ok(md) = fs::metadata(path) {
+        if md.is_dir() {
+            return Ok(())
+        }
+    }
+
+    fs::create_dir_all(path)?;
+    if opts.verbose {
+        println!("{}: Created directory {:?}", opts.progname, path);
+    }
     Ok(())
 }

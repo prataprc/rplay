@@ -4,15 +4,17 @@ use std::process;
 
 #[derive(Debug)]
 pub struct CmdOptions {
-    mode: String,
-    recurse: bool,
-    verbose: bool
+    pub progname: String,
+    pub mode: String,
+    pub recurse: bool,
+    pub verbose: bool,
+    pub paths: Vec<String>,
 }
 
 pub fn parse_args(progname: &str, args: &[String]) -> CmdOptions {
     let mut options = Options::new();
 
-    match parse_result(args, &mut options) {
+    match parse_result(progname, args, &mut options) {
         Ok(opts) => opts,
         Err(err) => {
             usage(&progname, &options, err);
@@ -21,7 +23,7 @@ pub fn parse_args(progname: &str, args: &[String]) -> CmdOptions {
     }
 }
 
-fn parse_result(args: &[String], options: &mut Options)
+fn parse_result(progname: &str, args: &[String], options: &mut Options)
     -> Result<CmdOptions, Error>
 {
     options.optflag(
@@ -40,10 +42,13 @@ fn parse_result(args: &[String], options: &mut Options)
     );
 
     let matches = options.parse(args)?;
+
+    let progname = progname.to_string();
     let verbose = matches.opt_present("v");
     let recurse = matches.opt_present("p");
     let mode = validate_mode(&matches)?;
-    Ok(CmdOptions{ mode, recurse, verbose })
+    let paths = matches.free;
+    Ok(CmdOptions{ progname, mode, recurse, verbose, paths })
 }
 
 fn usage(progname: &str, options: &Options, error: Error) {
