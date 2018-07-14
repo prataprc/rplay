@@ -3,3 +3,4 @@ arch/target
 mkdir/target
 sudoku/target
 cat/target
+ascii/target
