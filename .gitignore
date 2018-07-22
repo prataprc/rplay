@@ -4,3 +4,4 @@ mkdir/target
 sudoku/target
 cat/target
 ascii/target
+cpuid/target

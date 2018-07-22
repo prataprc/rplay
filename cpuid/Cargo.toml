@@ -1,0 +1,6 @@
+[package]
+name = "cpuid"
+version = "0.1.0"
+authors = ["prataprc <prataprc@gmail.com>"]
+
+[dependencies]

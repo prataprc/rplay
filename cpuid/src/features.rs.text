@@ -1,0 +1,19 @@
+static aes: (&'static str, [&'static str; 3])  = (
+"aes", [
+"Advanced Encryption Standard (AES) x86 instruction set",
+"for data encryption and decryption. Proposed in March 2008."
+])
+
+static pclmulqdq: (&'static str, [&'static str; 8])  = (
+"pclmulqdq", [
+"Carry-less Multiplication (CLMUL) is an extension to the",
+"x86 instruction set used by microprocessors from Intel and",
+"AMD which was proposed by Intel in March 2008".
+"Can be sued to improve the speed of applications doing",
+"block cipher encryption in Galois/Counter Mode. Other ",
+"applications include the fast calculation of CRC values,"
+"to implement the LZ77 sliding window DEFLATE algorithm"
+"in zlib and pngcrush"
+])
+
+// # vim: ft=rust
