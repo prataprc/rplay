@@ -1,0 +1,9 @@
+[package]
+name = "ci"
+version = "0.1.0"
+authors = ["prataprc <prataprc@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+chrono = "0.4.6"
+structopt = { version = "0.2", default-features = false }

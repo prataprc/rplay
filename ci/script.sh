@@ -1,0 +1,13 @@
+cargo run -- --from 2014-02-01 --days 7 -r 5.00 -p 100000
+cargo run -- --from 2014-02-01 --days 14 -r 5.00 -p 100000
+cargo run -- --from 2014-02-01 --days 15 -r 5.00 -p 100000
+cargo run -- --from 2014-02-01 --days 30 -r 5.00 -p 100000
+cargo run -- --from 2014-02-01 --days 31 -r 5.50 -p 100000
+cargo run -- --from 2014-02-01 --days 45 -r 5.50 -p 100000
+cargo run -- --from 2014-02-01 --days 46 -r 6.00 -p 100000
+cargo run -- --from 2014-02-01 --days 90 -r 6.00 -p 100000
+cargo run -- --from 2014-02-01 --days 91 -r 6.90 -p 100000
+cargo run -- --from 2014-02-01 --days 180 -r 6.90 -p 100000
+cargo run -- --from 2014-02-01 --days 181 -r 6.75 -p 100000
+cargo run -- --from 2014-02-01 --days 270 -r 6.75 -p 100000
+cargo run -- --from 2014-02-01 --days 271 -r 6.75 -p 100000
