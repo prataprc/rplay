@@ -24,6 +24,7 @@ fn fast_copy2(b: &mut Bencher) {
     let data = Rc::new(arr);
     b.iter(|| {
         let out: VecDeque<i32> = iter::FromIterator::from_iter(data.iter().cloned());
+        out
     });
 }
 
@@ -34,5 +35,14 @@ fn fast_copy3(b: &mut Bencher) {
     let data = Rc::new(arr);
     b.iter(|| {
         let out: VecDeque<i32> = (*data).clone().into();
+        out
     });
+}
+
+#[bench]
+fn fast_copy4(b: &mut Bencher) {
+    let mut arr = Vec::new();
+    arr.resize(1000, 0);
+    let data = Rc::new(arr);
+    b.iter(|| data.iter().copied().collect::<VecDeque<i32>>());
 }
