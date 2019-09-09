@@ -34,24 +34,25 @@ http://crates.io/crates/ai
 http://crates.io/crates/ak
 http://crates.io/crates/am
 http://crates.io/crates/an
-http://crates.io/crates/ao => audio
+http://crates.io/crates/ao => media-audio
 http://crates.io/crates/ar => file-binary
 http://crates.io/crates/at
 http://crates.io/crates/av
 http://crates.io/crates/az => TBD
-http://crates.io/crates/b2
+http://crates.io/crates/b2 => image
 http://crates.io/crates/ba
 http://crates.io/crates/bb
-http://crates.io/crates/bc
+http://crates.io/crates/bc => bignum
 http://crates.io/crates/bd
-http://crates.io/crates/bf
+http://crates.io/crates/bf => lang-brainfuck
 http://crates.io/crates/bh
 http://crates.io/crates/bi
-http://crates.io/crates/bm
-http://crates.io/crates/bn
-http://crates.io/crates/bq
+http://crates.io/crates/bm => binary-merkle-trie
+http://crates.io/crates/bn => pairing-cryptography
+http://crates.io/crates/bq => dual-quaternions
 http://crates.io/crates/bt
-http://crates.io/crates/bv
+http://crates.io/crates/bv => bit-vector
+
 http://crates.io/crates/c3
 http://crates.io/crates/c4
 http://crates.io/crates/ca
@@ -3669,7 +3670,7 @@ http://crates.io/crates/bittrex-api
 http://crates.io/crates/bittwiddler
 http://crates.io/crates/bitty
 http://crates.io/crates/bitutils
-http://crates.io/crates/bitvec
+http://crates.io/crates/bitvec      => bit-vector
 http://crates.io/crates/bitvec-rs
 http://crates.io/crates/bitvector
 http://crates.io/crates/bitwise
@@ -26253,7 +26254,7 @@ http://crates.io/crates/tidwall_geohash
 http://crates.io/crates/tiff
 http://crates.io/crates/tiff-encoder
 http://crates.io/crates/tiger
-http://crates.io/crates/tiger-digest
+http://crates.io/crates/tiger-digest => hash-tiger
 http://crates.io/crates/tight
 http://crates.io/crates/tiktok
 http://crates.io/crates/tikv-client
