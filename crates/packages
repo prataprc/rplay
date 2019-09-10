@@ -8,7 +8,7 @@ http://crates.io/crates/g
 http://crates.io/crates/h
 http://crates.io/crates/i
 http://crates.io/crates/j
-http://crates.io/crates/k => kinematics
+http://crates.io/crates/k => algorithm-kinematics
 http://crates.io/crates/l
 http://crates.io/crates/m
 http://crates.io/crates/n
@@ -39,71 +39,71 @@ http://crates.io/crates/ar => file-binary
 http://crates.io/crates/at
 http://crates.io/crates/av
 http://crates.io/crates/az => TBD
-http://crates.io/crates/b2 => image
+http://crates.io/crates/b2 => media-image
 http://crates.io/crates/ba
 http://crates.io/crates/bb
-http://crates.io/crates/bc => bignum
+http://crates.io/crates/bc => numeric-bignum
 http://crates.io/crates/bd
 http://crates.io/crates/bf => lang-brainfuck
 http://crates.io/crates/bh
 http://crates.io/crates/bi
-http://crates.io/crates/bm => binary-merkle-trie
-http://crates.io/crates/bn => pairing-cryptography
-http://crates.io/crates/bq => dual-quaternions
+http://crates.io/crates/bm => algorithm-binary-merkle-trie
+http://crates.io/crates/bn => algorithm-pairing-cryptography
+http://crates.io/crates/bq => algorithm-dual-quaternions
 http://crates.io/crates/bt
 http://crates.io/crates/bv => bit-vector
-
 http://crates.io/crates/c3
-http://crates.io/crates/c4
+http://crates.io/crates/c4 => numeric-REPL
 http://crates.io/crates/ca
-http://crates.io/crates/cc
+http://crates.io/crates/cc => toolchain-build-script
 http://crates.io/crates/cg
 http://crates.io/crates/ci
 http://crates.io/crates/ck
 http://crates.io/crates/co
 http://crates.io/crates/cr
 http://crates.io/crates/ct
-http://crates.io/crates/cu
-http://crates.io/crates/cw
+http://crates.io/crates/cu => cuda-binding
+http://crates.io/crates/cw => unix-wc
 http://crates.io/crates/da
 http://crates.io/crates/db
 http://crates.io/crates/dc
-http://crates.io/crates/dd
+http://crates.io/crates/dd => unix-dd
 http://crates.io/crates/de
 http://crates.io/crates/df
-http://crates.io/crates/di
+http://crates.io/crates/di => dependency-injection
 http://crates.io/crates/dl
 http://crates.io/crates/do
-http://crates.io/crates/dp
-http://crates.io/crates/dq
-http://crates.io/crates/ds
-http://crates.io/crates/du
+http://crates.io/crates/dp => unix-du
+http://crates.io/crates/dq => algorithm-dual-quaternions
+http://crates.io/crates/ds => FIRST-robotics-competition
+http://crates.io/crates/du => unix-du
 http://crates.io/crates/dw
-http://crates.io/crates/eb
-http://crates.io/crates/ec
+http://crates.io/crates/eb => unix-watch
+http://crates.io/crates/ec => algorithm-elliptic-curve-cryptography
 http://crates.io/crates/ee
-http://crates.io/crates/ei
-http://crates.io/crates/em
+http://crates.io/crates/ei => erlang-interface
+http://crates.io/crates/em => lang-emu
 http://crates.io/crates/er
 http://crates.io/crates/es
 http://crates.io/crates/ev
-http://crates.io/crates/ex
+http://crates.io/crates/ex => stdlib-wrapper
 http://crates.io/crates/ez
-http://crates.io/crates/f3
-http://crates.io/crates/f4
+http://crates.io/crates/f3 => OpenOCD-embedded-STM32F3
+http://crates.io/crates/f4 => OpenOCD-embedded-STM32F429I
 http://crates.io/crates/fa
 http://crates.io/crates/fb
-http://crates.io/crates/fc
+http://crates.io/crates/fc => unix-fontconfig
 http://crates.io/crates/fd
-http://crates.io/crates/fe
+http://crates.io/crates/fe => unix-find
 http://crates.io/crates/ff
 http://crates.io/crates/fi
 http://crates.io/crates/fn
-http://crates.io/crates/fp
-http://crates.io/crates/fs
-http://crates.io/crates/ft
+http://crates.io/crates/fp => numeric-fixedpoint
+http://crates.io/crates/fs => stdlib-filesystem-concurrent
+http://crates.io/crates/ft => font-freetype
 http://crates.io/crates/fw
 http://crates.io/crates/fx
+
 http://crates.io/crates/ga
 http://crates.io/crates/gc
 http://crates.io/crates/ge
@@ -4236,7 +4236,7 @@ http://crates.io/crates/c-ffi
 http://crates.io/crates/c-path
 http://crates.io/crates/c-types
 http://crates.io/crates/c2-chacha
-http://crates.io/crates/c2rust
+http://crates.io/crates/c2rust                  => compiler-c2rust-transpiler
 http://crates.io/crates/c2rust-ast-builder
 http://crates.io/crates/c2rust-ast-exporter
 http://crates.io/crates/c2rust-bitfields
