@@ -105,7 +105,7 @@ http://crates.io/crates/fw
 http://crates.io/crates/fx
 
 http://crates.io/crates/ga
-http://crates.io/crates/gc
+http://crates.io/crates/gc => stdlib-memory-gc
 http://crates.io/crates/ge
 http://crates.io/crates/gf
 http://crates.io/crates/gg
@@ -128,6 +128,7 @@ http://crates.io/crates/hq
 http://crates.io/crates/ht
 http://crates.io/crates/hx
 http://crates.io/crates/hz
+
 http://crates.io/crates/i3
 http://crates.io/crates/ia
 http://crates.io/crates/ib
