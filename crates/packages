@@ -35,27 +35,27 @@ http://crates.io/crates/ak
 http://crates.io/crates/am
 http://crates.io/crates/an
 http://crates.io/crates/ao => media-audio
-http://crates.io/crates/ar => file-binary
+http://crates.io/crates/ar => unix-ar
 http://crates.io/crates/at
 http://crates.io/crates/av
 http://crates.io/crates/az => TBD
 http://crates.io/crates/b2 => media-image
 http://crates.io/crates/ba
 http://crates.io/crates/bb
-http://crates.io/crates/bc => numeric-bignum
+http://crates.io/crates/bc => rust-type-bignum
 http://crates.io/crates/bd
 http://crates.io/crates/bf => lang-brainfuck
 http://crates.io/crates/bh
 http://crates.io/crates/bi
 http://crates.io/crates/bm => algorithm-binary-merkle-trie
-http://crates.io/crates/bn => algorithm-pairing-cryptography
+http://crates.io/crates/bn => crypto-pairing-cryptography
 http://crates.io/crates/bq => algorithm-dual-quaternions
 http://crates.io/crates/bt
-http://crates.io/crates/bv => bit-vector
+http://crates.io/crates/bv => rust-type-bit-vector
 http://crates.io/crates/c3
-http://crates.io/crates/c4 => numeric-REPL
+http://crates.io/crates/c4 => math-numeric-REPL
 http://crates.io/crates/ca
-http://crates.io/crates/cc => toolchain-build-script
+http://crates.io/crates/cc => rust-build-script
 http://crates.io/crates/cg
 http://crates.io/crates/ci
 http://crates.io/crates/ck
@@ -79,9 +79,9 @@ http://crates.io/crates/ds => FIRST-robotics-competition
 http://crates.io/crates/du => unix-du
 http://crates.io/crates/dw
 http://crates.io/crates/eb => unix-watch
-http://crates.io/crates/ec => algorithm-elliptic-curve-cryptography
+http://crates.io/crates/ec => crypto-elliptic-curve-cryptography
 http://crates.io/crates/ee
-http://crates.io/crates/ei => erlang-interface
+http://crates.io/crates/ei => lang-erlang-interface
 http://crates.io/crates/em => lang-emu
 http://crates.io/crates/er
 http://crates.io/crates/es
@@ -98,43 +98,41 @@ http://crates.io/crates/fe => unix-find
 http://crates.io/crates/ff
 http://crates.io/crates/fi
 http://crates.io/crates/fn
-http://crates.io/crates/fp => numeric-fixedpoint
-http://crates.io/crates/fs => stdlib-filesystem-concurrent
-http://crates.io/crates/ft => font-freetype
+http://crates.io/crates/fp => rust-type-fixedpoint
+http://crates.io/crates/fs => rust-stdlib-filesystem-concurrent
+http://crates.io/crates/ft => unix-font-freetype
 http://crates.io/crates/fw
 http://crates.io/crates/fx
-
 http://crates.io/crates/ga
-http://crates.io/crates/gc => stdlib-memory-gc
-http://crates.io/crates/ge
-http://crates.io/crates/gf
+http://crates.io/crates/gc => rust-stdlib-memory-gc
+http://crates.io/crates/ge => algorithm-genetic
+http://crates.io/crates/gf => algorithm-galois-field
 http://crates.io/crates/gg
 http://crates.io/crates/gh
 http://crates.io/crates/gi
 http://crates.io/crates/gj
-http://crates.io/crates/gl
+http://crates.io/crates/gl => opengl
 http://crates.io/crates/go
-http://crates.io/crates/gp
+http://crates.io/crates/gp => algorithm-gaussian-process
 http://crates.io/crates/gr
 http://crates.io/crates/gy
 http://crates.io/crates/h1
-http://crates.io/crates/h2
+http://crates.io/crates/h2 => web-http
 http://crates.io/crates/h3
-http://crates.io/crates/hb
-http://crates.io/crates/hc
+http://crates.io/crates/hb => web-http-benchmark
+http://crates.io/crates/hc => unix-bc
 http://crates.io/crates/hg
-http://crates.io/crates/hn
+http://crates.io/crates/hn => web-hackernews
 http://crates.io/crates/hq
-http://crates.io/crates/ht
+http://crates.io/crates/ht => unix-curl
 http://crates.io/crates/hx
 http://crates.io/crates/hz
-
 http://crates.io/crates/i3
 http://crates.io/crates/ia
 http://crates.io/crates/ib
 http://crates.io/crates/id
 http://crates.io/crates/if
-http://crates.io/crates/im
+http://crates.io/crates/im => algorithm-immutable-structures
 http://crates.io/crates/io
 http://crates.io/crates/ip
 http://crates.io/crates/iq
@@ -142,143 +140,143 @@ http://crates.io/crates/ir
 http://crates.io/crates/is
 http://crates.io/crates/it
 http://crates.io/crates/jg
-http://crates.io/crates/jh
+http://crates.io/crates/jh => crypto-hash
 http://crates.io/crates/jp
 http://crates.io/crates/js
 http://crates.io/crates/jv
 http://crates.io/crates/kg
 http://crates.io/crates/kh
-http://crates.io/crates/ko
+http://crates.io/crates/ko => web-static-site-generator
 http://crates.io/crates/kr
 http://crates.io/crates/kt
-http://crates.io/crates/ku
-http://crates.io/crates/kv
+http://crates.io/crates/ku => algorithm-sudoku
+http://crates.io/crates/kv => db-lmdb
 http://crates.io/crates/kw
 http://crates.io/crates/kx
-http://crates.io/crates/la
-http://crates.io/crates/ld
+http://crates.io/crates/la => math-linear-algebra
+http://crates.io/crates/ld => rust-linking
 http://crates.io/crates/li
 http://crates.io/crates/ls
-http://crates.io/crates/lw
+http://crates.io/crates/lw => unix-tail
 http://crates.io/crates/ma
 http://crates.io/crates/mc
-http://crates.io/crates/md
+http://crates.io/crates/md => web-markdown
 http://crates.io/crates/me
 http://crates.io/crates/mg
 http://crates.io/crates/mk
 http://crates.io/crates/ml
 http://crates.io/crates/mm
-http://crates.io/crates/mn
+http://crates.io/crates/mn => unix-mn
 http://crates.io/crates/mp
 http://crates.io/crates/ms
 http://crates.io/crates/mt
 http://crates.io/crates/mu
-http://crates.io/crates/n5
+http://crates.io/crates/n5 => db-hdf5
 http://crates.io/crates/na
 http://crates.io/crates/nb
-http://crates.io/crates/nc
+http://crates.io/crates/nc => unix-syscall
 http://crates.io/crates/nd
 http://crates.io/crates/nl
-http://crates.io/crates/nn
-http://crates.io/crates/no
+http://crates.io/crates/nn => neural-network
+http://crates.io/crates/no => unix-yes
 http://crates.io/crates/np
-http://crates.io/crates/nt
-http://crates.io/crates/nu
-http://crates.io/crates/nx
+http://crates.io/crates/nt => unix-network-tables
+http://crates.io/crates/nu => unix-shell
+http://crates.io/crates/nx => unix-nxformat
 http://crates.io/crates/o2
 http://crates.io/crates/oi
 http://crates.io/crates/on
 http://crates.io/crates/op
 http://crates.io/crates/or
 http://crates.io/crates/os
-http://crates.io/crates/ot
+http://crates.io/crates/ot => unix-tibia-formats
 http://crates.io/crates/ox
-http://crates.io/crates/pb
-http://crates.io/crates/pc
+http://crates.io/crates/pb => web-pushbullet
+http://crates.io/crates/pc => web-pastebin
 http://crates.io/crates/pe
 http://crates.io/crates/pf
 http://crates.io/crates/pg
 http://crates.io/crates/pi
-http://crates.io/crates/pj
+http://crates.io/crates/pj => db-json
 http://crates.io/crates/pl
 http://crates.io/crates/pm
-http://crates.io/crates/po
+http://crates.io/crates/po => web-pushover
 http://crates.io/crates/pp
-http://crates.io/crates/pq
+http://crates.io/crates/pq => web-protobuf-json
 http://crates.io/crates/ps
-http://crates.io/crates/pw
+http://crates.io/crates/pw => crypto-password
 http://crates.io/crates/py
 http://crates.io/crates/qq
 http://crates.io/crates/qs
 http://crates.io/crates/r0
 http://crates.io/crates/r1
-http://crates.io/crates/r4
-http://crates.io/crates/rb
+http://crates.io/crates/r4 => rust-list-comprehension
+http://crates.io/crates/rb => algorithm-ring-buffer
 http://crates.io/crates/rc
 http://crates.io/crates/re
-http://crates.io/crates/rf
-http://crates.io/crates/rm
+http://crates.io/crates/rf => unix-find
+http://crates.io/crates/rm => algorithm-random
 http://crates.io/crates/rn
 http://crates.io/crates/ro
 http://crates.io/crates/rp
-http://crates.io/crates/rq
+http://crates.io/crates/rq => lang-rust-qt
 http://crates.io/crates/rr
 http://crates.io/crates/rs
 http://crates.io/crates/rt
-http://crates.io/crates/rv
+http://crates.io/crates/rv => algorithm-random
 http://crates.io/crates/rw
 http://crates.io/crates/rx
 http://crates.io/crates/s2
-http://crates.io/crates/s3
-http://crates.io/crates/s4
-http://crates.io/crates/sc
-http://crates.io/crates/sd
-http://crates.io/crates/sf
-http://crates.io/crates/sg
+http://crates.io/crates/s3 => db-amazon-s3
+http://crates.io/crates/s4 => db-amazon-s3
+http://crates.io/crates/sc => unix-syscall
+http://crates.io/crates/sd => unix-sed
+http://crates.io/crates/sf => algorithm-uuid-snowflake
+http://crates.io/crates/sg => arch-SCSI
 http://crates.io/crates/sh
 http://crates.io/crates/si
 http://crates.io/crates/sl
-http://crates.io/crates/sm
+http://crates.io/crates/sm => algorithm-state-machine
 http://crates.io/crates/sr
 http://crates.io/crates/st
-http://crates.io/crates/sv
-http://crates.io/crates/sw
-http://crates.io/crates/ta
-http://crates.io/crates/td
+http://crates.io/crates/sv => algorithm-blockchain
+http://crates.io/crates/sw => unix-stopwatch
+http://crates.io/crates/ta => math-technical-analysis
+http://crates.io/crates/td => web-telegram-client
 http://crates.io/crates/tf
 http://crates.io/crates/th
 http://crates.io/crates/ti
 http://crates.io/crates/to
 http://crates.io/crates/tp
-http://crates.io/crates/tr
+http://crates.io/crates/tr => unix-localisation
 http://crates.io/crates/ts
 http://crates.io/crates/tt
 http://crates.io/crates/tx
 http://crates.io/crates/tz
-http://crates.io/crates/u9
+http://crates.io/crates/u9 => rust-type-u9
 http://crates.io/crates/uc
 http://crates.io/crates/ui
 http://crates.io/crates/ul
 http://crates.io/crates/up
-http://crates.io/crates/uq
+http://crates.io/crates/uq => unix-sort
 http://crates.io/crates/uu
-http://crates.io/crates/ux
-http://crates.io/crates/v8
+http://crates.io/crates/ux => rust-type-integers
+http://crates.io/crates/v8 => lang-v8-binding
 http://crates.io/crates/v9
 http://crates.io/crates/vc
 http://crates.io/crates/vk
 http://crates.io/crates/vm
 http://crates.io/crates/vn
 http://crates.io/crates/vo
-http://crates.io/crates/vt
+http://crates.io/crates/vt => unix-terminal
 http://crates.io/crates/vx
-http://crates.io/crates/wc
-http://crates.io/crates/wf
+http://crates.io/crates/wc => web-webcomponents
+http://crates.io/crates/wf => unix-wc
 http://crates.io/crates/wk
-http://crates.io/crates/wl
-http://crates.io/crates/wp
-http://crates.io/crates/ws
-http://crates.io/crates/x3
+http://crates.io/crates/wl => unix-wayland
+http://crates.io/crates/wp => web-wordpress-api
+http://crates.io/crates/ws => web-websockets
+http://crates.io/crates/x3 => codec-audio
 http://crates.io/crates/xn
 http://crates.io/crates/xo
 http://crates.io/crates/xs
@@ -288,8 +286,8 @@ http://crates.io/crates/xz
 http://crates.io/crates/ya
 http://crates.io/crates/yd
 http://crates.io/crates/yg
-http://crates.io/crates/yj
-http://crates.io/crates/yn
+http://crates.io/crates/yj => web-yaml-json
+http://crates.io/crates/yn => algorithm-nlp
 http://crates.io/crates/yo
 http://crates.io/crates/yt
 http://crates.io/crates/yy
@@ -297,10 +295,10 @@ http://crates.io/crates/z3
 http://crates.io/crates/za
 http://crates.io/crates/zk
 http://crates.io/crates/zr
-http://crates.io/crates/zx
+http://crates.io/crates/zx => zircon
 http://crates.io/crates/zz
 http://crates.io/crates/aac
-http://crates.io/crates/abc
+http://crates.io/crates/abc => algorithm-artificial-bee-colony
 http://crates.io/crates/ace
 http://crates.io/crates/acl
 http://crates.io/crates/acm
