@@ -1,0 +1,8 @@
+[package]
+name = "ocr"
+version = "0.1.0"
+authors = ["prataprc <prataprc@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+leptess = "0.8.1"
