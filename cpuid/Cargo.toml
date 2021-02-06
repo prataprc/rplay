@@ -2,5 +2,6 @@
 name = "cpuid"
 version = "0.1.0"
 authors = ["prataprc <prataprc@gmail.com>"]
+publish = false
 
 [dependencies]
