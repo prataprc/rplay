@@ -56,6 +56,15 @@ fn bench_atomicptr(b: &mut Bencher) {
     mem::drop(tx);
 }
 
+#[bench]
+fn bench_arc_clone(b: &mut Bencher) {
+    use std::sync::{atomic::AtomicU64, Arc};
+
+    b.iter(|| {
+        let val = Arc::new(AtomicU64::new(0));
+    })
+}
+
 fn busy_loop(count: usize) -> u64 {
     let acc: u64 = (0..count).map(|_| random::<u32>() as u64).sum();
     acc
