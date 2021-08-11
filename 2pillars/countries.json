@@ -1,0 +1,596 @@
+[
+   {
+      "two_pillar" : true,
+      "country_name" : "Albania"
+   },
+   {
+      "country_name" : "Andorra",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Angola"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Anguilla"
+   },
+   {
+      "country_name" : "Antigua and Barbuda",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Argentina"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Armenia"
+   },
+   {
+      "country_name" : "Aruba",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Australia"
+   },
+   {
+      "founder" : true,
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Austria"
+   },
+   {
+      "country_name" : "The Bahamas",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Bahrain"
+   },
+   {
+      "country_name" : "Belarus",
+      "two_pillar" : true
+   },
+   {
+      "member": true,
+      "country_name" : "Belgium",
+      "two_pillar" : true,
+      "founder" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Belize"
+   },
+   {
+      "country_name" : "Benin",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Bermuda",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Bosnia and Herzegovina"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Botswana"
+   },
+   {
+      "country_name" : "Brazil",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "British Virgin Islands",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Brunei Darussalam"
+   },
+   {
+      "country_name" : "Bulgaria",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Burkina Faso"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Cabo Verde"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Cameroon"
+   },
+   {
+      "two_pillar" : true,
+      "founder" : true,
+      "member": true,
+      "country_name" : "Canada"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Cayman Islands"
+   },
+   {
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Chile"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "China (Peopleâs Republic of)"
+   },
+   {
+      "member": true,
+      "country_name" : "Colombia",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Congo",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Cook Islands",
+      "two_pillar" : true
+   },
+   {
+      "member": true,
+      "country_name" : "Costa Rica",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "CÃ´te dâIvoire"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Croatia"
+   },
+   {
+      "country_name" : "CuraÃ§ao",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Czech Republic"
+   },
+   {
+      "country_name" : "Democratic Republic of the Congo",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "founder" : true,
+      "member": true,
+      "country_name" : "Denmark"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Djibouti"
+   },
+   {
+      "country_name" : "Dominica",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Dominican Republic",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Egypt"
+   },
+   {
+      "country_name" : "Estonia",
+      "member" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Eswatini"
+   },
+   {
+      "country_name" : "Faroe Islands",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Finland"
+   },
+   {
+      "founder" : true,
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "France"
+   },
+   {
+      "country_name" : "Gabon",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Georgia",
+      "two_pillar" : true
+   },
+   {
+      "founder" : true,
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Germany"
+   },
+   {
+      "country_name" : "Gibraltar",
+      "two_pillar" : true
+   },
+   {
+      "founder" : true,
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Greece"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Greenland"
+   },
+   {
+      "country_name" : "Grenada",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Guernsey"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Haiti"
+   },
+   {
+      "country_name" : "Honduras",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Hong Kong, China",
+      "two_pillar" : true
+   },
+   {
+      "member": true,
+      "country_name" : "Hungary"
+   },
+   {
+      "two_pillar" : true,
+      "founder" : true,
+      "member": true,
+      "country_name" : "Iceland"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "India"
+   },
+   {
+      "country_name" : "Indonesia",
+      "two_pillar" : true
+   },
+   {
+      "member": true,
+      "country_name" : "Ireland",
+      "founder" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Isle of Man"
+   },
+   {
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Israel"
+   },
+   {
+      "two_pillar" : true,
+      "founder" : true,
+      "member": true,
+      "country_name" : "Italy"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Jamaica"
+   },
+   {
+      "member": true,
+      "country_name" : "Japan",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Jersey"
+   },
+   {
+      "country_name" : "Jordan",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Kazakhstan"
+   },
+   {
+      "country_name" : "Korea",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Latvia"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Liberia"
+   },
+   {
+      "country_name" : "Liechtenstein",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Lithuania"
+   },
+   {
+      "member": true,
+      "country_name" : "Luxembourg",
+      "founder" : true,
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Macau, China"
+   },
+   {
+      "country_name" : "Malaysia",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Maldives"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Malta"
+   },
+   {
+      "country_name" : "Mauritius",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Mexico"
+   },
+   {
+      "country_name" : "Monaco",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Mongolia"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Montenegro"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Montserrat"
+   },
+   {
+      "country_name" : "Morocco",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Namibia"
+   },
+   {
+      "two_pillar" : true,
+      "founder" : true,
+      "member": true,
+      "country_name" : "Netherlands"
+   },
+   {
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "New Zealand"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "North Macedonia"
+   },
+   {
+      "member": true,
+      "country_name" : "Norway",
+      "founder" : true,
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Oman",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Pakistan",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Panama",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Papua New Guinea"
+   },
+   {
+      "country_name" : "Paraguay",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Peru"
+   },
+   {
+      "member": true,
+      "country_name" : "Poland",
+      "two_pillar" : true
+   },
+   {
+      "member": true,
+      "country_name" : "Portugal",
+      "two_pillar" : true,
+      "founder" : true
+   },
+   {
+      "country_name" : "Qatar",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Romania"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Russian Federation"
+   },
+   {
+      "country_name" : "Saint Kitts and Nevis",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Saint Lucia",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Samoa"
+   },
+   {
+      "country_name" : "San Marino",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Saudi Arabia"
+   },
+   {
+      "country_name" : "Senegal",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Serbia",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Seychelles"
+   },
+   {
+      "country_name" : "Sierra Leone",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Singapore",
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Slovak Republic",
+      "two_pillar" : true
+   },
+   {
+      "member": true,
+      "country_name" : "Slovakia"
+   },
+   {
+      "member": true,
+      "country_name" : "Slovenia",
+      "two_pillar" : true
+   },
+   {
+      "member": true,
+      "country_name" : "South Africa",
+      "two_pillar" : true
+   },
+   {
+      "member": true,
+      "country_name" : "Spain",
+      "founder" : true,
+      "two_pillar" : true
+   },
+   {
+      "founder" : true,
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Sweden"
+   },
+   {
+      "founder" : true,
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Switzerland"
+   },
+   {
+      "country_name" : "Thailand",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Trinidad and Tobago"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Tunisia"
+   },
+   {
+      "founder" : true,
+      "two_pillar" : true,
+      "member": true,
+      "country_name" : "Turkey"
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Turks and Caicos Islands"
+   },
+   {
+      "country_name" : "Ukraine",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "United Arab Emirates"
+   },
+   {
+      "member": true,
+      "country_name" : "United Kingdom",
+      "two_pillar" : true,
+      "founder" : true
+   },
+   {
+      "member": true,
+      "country_name" : "United States",
+      "founder" : true,
+      "two_pillar" : true
+   },
+   {
+      "country_name" : "Uruguay",
+      "two_pillar" : true
+   },
+   {
+      "two_pillar" : true,
+      "country_name" : "Viet Nam"
+   },
+   {
+      "country_name" : "Zambia",
+      "two_pillar" : true
+   }
+]
